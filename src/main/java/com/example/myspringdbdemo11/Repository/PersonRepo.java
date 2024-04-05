@@ -35,9 +35,5 @@ public class PersonRepo {
         String sql = "UPDATE person SET first_name = ?, last_name = ? WHERE id = ?";
         template.update(sql, p.getFirst_name(), p.getLast_name(), p.getId());
     }
-
-    //comment
-    /**
-     * asdasdasdasd
-     */
+    
 }
